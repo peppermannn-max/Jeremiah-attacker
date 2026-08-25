@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Jeremiah Attack Tracker</title><link rel="stylesheet" href="/style.css"></head>
+<body><div class="bg-grid"></div><main>
+<header><div class="badge">● LIVE • JEREMIAH WATCH</div><h1>JEREMIAH<br><b>ATTACK TRACKER</b></h1><p>Emergency Incident Command Center</p></header>
+<section class="display"><span>CONFIRMED ATTACKS</span><strong id="total">0</strong><small id="status">THREAT MONITOR ACTIVE</small></section>
+<section class="console"><label>⚠ SELECT SUSPECTED TRIGGER</label><select id="trigger"><option>Breathing</option><option>Being Gary</option><option>Existing near Jeremiah</option><option>Making eye contact</option><option>Speaking</option><option>Unknown / Jeremiah felt like it</option></select>
+<div class="hazard"></div><p class="instruction">PRESS AFTER A CONFIRMED JEREMIAH ATTACK</p>
+<div class="button-base"><button id="attack"><span>🚨</span>JEREMIAH<br>ATTACKED<span>🚨</span></button></div><div class="hazard"></div></section>
+<section class="stats"><div><b id="today">0</b><span>TODAY</span></div><div><b id="week">0</b><span>THIS WEEK</span></div><div><b id="top">—</b><span>TOP TRIGGER</span></div></section>
+<section class="panel"><h2>⚠ KNOWN ATTACK TRIGGERS</h2><div class="triggers"><i>BREATHING</i><i>BEING GARY</i><i>EXISTING NEARBY</i><i>EYE CONTACT</i><i>JEREMIAH FELT LIKE IT</i></div></section>
+<section class="panel"><div class="row"><h2>INCIDENT LOG</h2><small id="last">LAST: NEVER</small></div><div id="history" class="history">No incidents recorded. Suspiciously peaceful.</div></section>
+<footer>⚠ JEREMIAH INCIDENT DOCUMENTATION DIVISION ⚠</footer></main>
+<div id="alarm"><div>🚨<br>JEREMIAH<br>ATTACK DETECTED</div></div><script src="/app.js"></script></body></html>
